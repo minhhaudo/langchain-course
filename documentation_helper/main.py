@@ -2,7 +2,7 @@ from typing import Any, Dict, List
 
 import streamlit as st
 
-from backend.core import run_llm
+from backend.core_local import run_llm
 
 
 def _format_sources(context_docs: List[Any]) -> List[str]:
